@@ -18,7 +18,7 @@ BeTick is in an unstable development state, here i'll explain you some basics th
 
 Please suggest bugs, and improvements at my email :
 
-barrett666@gmail.com or dak.linux@gmail.com
+barrett666@gmail.com or gessadavide@gmail.com
 
 
 ## Project Page 
