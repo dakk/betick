@@ -1,0 +1,15 @@
+
+resource app_signature "application/x-vnd.Haiku-BeTick";
+
+resource app_version {
+	major  = 1,
+	middle = 0,
+	minor  = 0,
+
+	variety = B_APPV_BETA,
+
+	internal = 0,
+
+	short_info = "BeTick",
+	long_info = "BeTick ©2005-2009 Haiku, Inc."
+};
