@@ -1,4 +1,4 @@
-=== Thanks for downloading BeTick v0.0.1! ===
+# BeTick
 
 BeTick is a Blue Technoids project.
 
@@ -6,9 +6,10 @@ Manager(s) :
 Casalinuovo Dario, barrett666@gmail.com
 
 Developer(s) :
-Davide Gessa, dak.linux@gmail.com
+Davide Gessa, gessadavide@gmail.com
 
-=== Description ===
+
+## Description
 
 BeTick is a simple (now) Metronome for the Haiku Operating System, and
 not BeTick is not related to the known GTick for Linux.
@@ -19,15 +20,13 @@ Please suggest bugs, and improvements at my email :
 
 barrett666@gmail.com or dak.linux@gmail.com
 
-=== Project Page ===
 
-The source is hosted on OsDrawer :
-http://dev.osdrawer.net/projects/betick
+## Project Page 
 
-App home  :
-www.bluetechnoids.org
+App home: www.bluetechnoids.org
 
-=== How to compile the sources ===
+
+## How to compile the sources
 
 We use a simple Jamfile to compile the project so simply open a Terminal
 on the sources directory and type :
