@@ -38,3 +38,27 @@ riguardo i BPM o riguardo gli accenti, viene creato  un flusso audio
 
 * La parte dove scegliere i bpm deve essere sia uno slider che un BTextControl - FATTO
 
+
+
+
+Dal vangelo secondo Barrett:
+
+io prenderei quella classe
+la rinominerei InternalMetronome
+e modificherei tutto per caricare le due BMediaTrack
+e gestire la temporizzazione
+calcolando tic + x buffer vuoti + tac + x + tac + x + tac
+cioè devi creare dei buffer in realtime
+ma te ne devi fare un po in anticipo
+per evitare delay
+quindi immagino una funzione che calcola questi 0 dentro il buffer
+quindi tu ti setti la dimensione giusta del buffer
+e ogni volta che la PlayFunction viene chiamata
+ritorni un buffer che contiene tic + il numero giusto di buffer vuoti
+facendo così facciamo il metronomo piu preciso che si può avere su un pc 
+costruito con semiconduttori
+ovviamente ti fai un calcolor
+che riguarda il samplerate e il formato che usa il nodo
+
+
+http://cgit.haiku-os.org/haiku/plain/src/servers/media_addon/MediaFilePlayer.cpp
